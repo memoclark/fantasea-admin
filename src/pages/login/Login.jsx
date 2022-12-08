@@ -1,6 +1,6 @@
 import { useState } from "react"
 import "./login.scss"
-import { signInWithEmailAndPassword } from "firebase/auth";
+import { createUserWithEmailAndPassword } from "firebase/auth";
 
 
 const Login = () => {
